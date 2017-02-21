@@ -1,0 +1,26 @@
+
+/**
+ * 嗯, 简历写完了!
+ * 好像有点寒酸, 没关系, 让我们来渲染一下.
+ */
+
+#work-text.flipped {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+#work-text .md {
+  -webkit-transform: rotateY(190deg) rotateZ(180deg);
+  margin-top: 800px;
+}
+
+/**
+ * 准备工作做完了!
+ *
+ * 3...
+ * 2...
+ * 1...
+ *
+ * .
+ * ....发射!
+ *
+ */

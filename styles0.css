@@ -1,0 +1,98 @@
+/**
+ * (´・ω・`) 你好, 我叫董启宏, 正在东南大学信息学院读研二.
+ *
+ * 快要找工作了, 大家都在做简历, 我来做一个不一样的.
+ *
+ * (･ω･)ﾉﾞ 做一个会动的怎么样？
+ */
+
+/**
+ * 我们正式开始吧, 一起摇摆! ：）
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ * 刚才我们让所有元素有了过渡效果.
+ *
+ * 白纸黑字太单调, 让我们加点背景吧.
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+/***
+ * 等等哦.
+ */
+
+pre, a {
+  color: white;
+}
+
+/**
+ * 嗯，这样看起来好多啦！
+ * 接下来我要创建一个区域来写代码.
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 93.5%;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+/**
+ * 棒! 接下来让我们把编辑器挪到右边.
+ * 腾出地儿来写我们的简历.
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * 作为程序员没有代码高亮怎么能忍!
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/**
+ * 嗯, 现在看起来好多啦!
+ * 但还不够酷炫! 让我们来看看你的浏览器是否支持 CSS3.
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 93.5%;
+}
+
+/**
+ * 好, 终于要开始写简历了!
+ * 让你久等了, 其实可以按下边的跳过动画快速跳过的. :)
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
